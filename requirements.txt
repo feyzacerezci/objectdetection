@@ -1,0 +1,14 @@
+cuda 10.1 ve gerekli cudnn bin klasörü.
+
+conda create -n tensorflow2 python=3.6
+activate tensorflow2
+
+pip install tensorflow-gpu==1.15.0
+
+conda install -c anaconda protobuf
+pip install pillow
+pip install lxml
+pip install jupyter
+pip install matplotlib
+pip install pandas
+pip install opencv-python
